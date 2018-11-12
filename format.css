@@ -88,16 +88,30 @@ nav {
   width:100%;
   height:450px;
   background-size:100% 100%;
-  background-image:url('img/waterfall.jpg');
   background-repeat:no-repeat; 
   box-shadow: 0px 0px 40px 40px white inset;
   transition:background-image 1s;
 }
 
 .header-image:hover {
-  background-image:url('img/agile-model.png');
   background-repeat:no-repeat;
   background-size:100% 100%;
+}
+
+.header-image.agile {
+  background-image:url('img/waterfall.jpg');
+}
+
+.header-image.agile:hover {
+  background-image:url('img/agile-model.png');
+}
+
+.header-image.ba {
+  background-image:url('img/ba1.jpg');
+}
+
+.header-image.ba:hover {
+  background-image:url('img/ba2.png');  
 }
 
 #bglayer {
