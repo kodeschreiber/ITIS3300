@@ -114,6 +114,14 @@ nav {
   background-image:url('img/ba2.png');  
 }
 
+.header-image.sc {
+  background-image:url('img/sc2.png');
+}
+
+.header-image.sc:hover {
+  background-image:url('img/sc3.png');  
+}
+
 #bglayer {
   background-color:rgb(210,210,210, 0.25);
   padding-left:20px;
